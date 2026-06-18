@@ -109,6 +109,12 @@ margin-inline-end: 0.5rem;
 }
 
 @media (min-width:47rem){
+    main > p , main >h1{
+        width: 40vw;
+    }
+    main > p{
+        margin-block-end: 2rem;
+    }
    section{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -129,6 +135,7 @@ margin-inline-end: 0.5rem;
   
     
 section{
+  margin-block-start: 2rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
   grid-template-rows: repeat(2, 1fr);    /* 2 filas iguales */
