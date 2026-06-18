@@ -29,14 +29,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/BACKGROUND.png.jpg)
+![Preview](/images/BACKGROUND.png)
 
 
 
 ### Links
 
 - Solution URL: [My solution](https://github.com/David-VB03/Card_Feature_section)
-- Live Site URL: [Demo Live]([https://your-live-site-url.com](https://david-vb03.github.io/Card_Feature_section/))
+- Live Site URL:[Demo Live](https://david-vb03.github.io/Card_Feature_section/)
 
 ## My process
 
