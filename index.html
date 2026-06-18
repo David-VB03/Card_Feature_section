@@ -7,31 +7,61 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
   <title>Frontend Mentor | Four card feature section</title>
 
 
 </head>
 
 <body>
+  <main class="four__card">
+    <h1>
+      <span>Reliable, efficient delivery</span>
+      Powered by Technology
+    </h1>
+    <p>
+      Our Artificial Intelligence powered tools use millions of project data points
+      to ensure that your project is successful
+    </p>
+    <section class="list__card">
+      <div class="card__item">
+        <div class="content__card">
+          <h2>
+            Supervisor
+          </h2>
+          <p>Monitors activity to identify project roadblocks</p>
+        </div>
+        <img src="images/icon-supervisor.svg" alt="An icon reference to the supervisor">
+      </div>
+      <div class="card__item">
+        <div class="content__card">
+          <h2>Team Builder</h2>
+          <p>Scans our talent network to create the optimal team for your project</p>
 
-  Reliable, efficient delivery
-  Powered by Technology
+        </div><img src="images/icon-team-builder.svg" alt="An icon reference to the supervisor">
 
-  Our Artificial Intelligence powered tools use millions of project data points
-  to ensure that your project is successful
+      </div>
+      <div class="card__item">
+        <div class="content__card">
+          <h2>Karma</h2>
+          <p>Regularly evaluates our talent to ensure quality</p>
+        </div> <img src="images/icon-karma.svg" alt="An icon reference to the supervisor">
 
-  Supervisor
-  Monitors activity to identify project roadblocks
+      </div>
+      <div class="card__item">
+        <div class="content__card">
+          <h2>Calculator</h2>
+          <p>Uses data from past projects to provide better delivery estimates</p>
+        </div> <img src="images/icon-calculator.svg" alt="An icon reference to the supervisor">
 
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>
